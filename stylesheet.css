@@ -1,0 +1,60 @@
+body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1{
+    color:  #B22222;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    
+    /*Elimino estas lineas de código que definen el 
+    tipo de letra porque es más eficiente que estén
+     definidas en el body ya que voy a emplear la misma 
+     tipografía todo el tiempo*/
+
+  }
+  h2{
+    color:  #B22222;
+   /*font-family: Arial, Helvetica, sans-serif;*/
+       font-size: 80;
+
+  }
+  h3{
+   /*font-family: Arial, Helvetica, sans-serif;*/
+   
+  }
+  h4{
+   /*font-family: Arial, Helvetica, sans-serif;*/
+   
+  }
+  p{
+   /*font-family: Arial, Helvetica, sans-serif;*/
+   color: grey;
+
+
+  }
+  li{
+
+   /*font-family: Arial, Helvetica, sans-serif;*/
+   color: grey;   
+ 
+
+  }
+
+ul{
+    list-style:none;
+
+}
+ul li::before{
+    content: "\2022";
+    color: #B22222;
+    padding-right: 10px;
+
+}
+table, th, td {
+
+  border-top: transparent;
+
+}
